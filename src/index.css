@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+}
+
+/* Bootstrap Overrides */
+.btn-primary {
+  background-color: #00796b; /* Teal - Primary color */
+  border-color: #00796b;
+}
+
+.btn-primary:hover {
+  background-color: #004d40; /* Darker Teal - Hover state */
+  border-color: #004d40;
+}
+
+.btn-success {
+    background-color: #43a047; /* Green */
+    border-color: #43a047;
+}
+
+.btn-success:hover {
+    background-color: #2e7d32; /* Darker Green */
+    border-color: #2e7d32;
+}
+
+.btn-info {
+    background-color: #039be5; /* Light Blue */
+    border-color: #039be5;
+}
+
+.btn-info:hover {
+    background-color: #0277bd; /* Darker Light Blue */
+    border-color: #0277bd;
+}
+
+.btn-danger {
+    background-color: #e53935; /* Red */
+    border-color: #e53935;
+}
+
+.btn-danger:hover {
+    background-color: #b71c1c; /* Darker Red */
+    border-color: #b71c1c;
+}
+
+.card {
+  border-radius: 8px; /* Slightly rounded corners */
+  border: none; /* Remove borders */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Custom Styles */
+h1 {
+  font-size: 2.2rem; /* Slightly larger heading */
+  margin-bottom: 1.5rem;
+  color: #00796b; /* Teal - Use primary color for headings */
+}
+
+.result-card {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.result-card.positive {
+  border-left: 5px solid #43a047; /* Green border for positive */
+  background-color: #e8f5e9; /* Light Green background */
+}
+
+.result-card.negative {
+  border-left: 5px solid #e53935; /* Red border for negative */
+  background-color: #ffebee; /* Light Red background */
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #00796b;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
