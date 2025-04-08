@@ -83,7 +83,7 @@ export const calculateBenefits = {
           results.push({
             indicador: selectedIndicator,
             retorno: jobs,
-            retorno_formatado: `${jobs.toFixed(2).replace('.', ',')} ${outputUnit}`, // Format here
+            retorno_formatado: `${jobs.toFixed(2)} ${outputUnit}`,
             unidade: outputUnit
           });
         } else if (selectedIndicator === "Geração de Empregos Diretos") {
@@ -91,7 +91,7 @@ export const calculateBenefits = {
           results.push({
             indicador: selectedIndicator,
             retorno: jobs,
-            retorno_formatado: `${jobs.toFixed(2).replace('.', ',')} empregos`, // Format here
+            retorno_formatado: `${jobs.toFixed(2)} empregos`,
             unidade: "empregos"
           });
         } else if (selectedIndicator === "Total de Salários Gerados") {
